@@ -33,12 +33,9 @@ export default function Hero() {
           </div>
           <div>
             <Card bgColor={"landingGray"}>
-              <div className="flex">
-                <span className="text-lg font-bold pb-2">Title</span>
-                <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
-                Faucibus in libero.Lorem ipsum dolor amet,
-                <Image src="/home.png" width={200} height={200}></Image>
-              </div>
+              <span className="text-lg font-bold pb-2">Title</span>
+              <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
+              Faucibus in libero.Lorem ipsum dolor amet,<Image ></Image>
             </Card>
           </div>
         </div>

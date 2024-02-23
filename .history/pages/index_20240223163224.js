@@ -6,7 +6,6 @@ import CompanyLogos from "@/components/companyLogos";
 import Story from "@/components/Story";
 import ServiceBanner from "@/components/serviceBanner";
 import About from "@/components/About";
-import Testimonials from "@/components/Testimonials";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +15,6 @@ export default function Home() {
       <Hero></Hero>
       <CompanyLogos></CompanyLogos>
       <Story></Story>
-      <Testimonials></Testimonials>
       <About></About>
       <ServiceBanner></ServiceBanner>
     </Layout>

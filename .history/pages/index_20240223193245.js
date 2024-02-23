@@ -16,7 +16,7 @@ export default function Home() {
       <Hero></Hero>
       <CompanyLogos></CompanyLogos>
       <Story></Story>
-      <Testimonials></Testimonials>
+      <Testimonials></Test>
       <About></About>
       <ServiceBanner></ServiceBanner>
     </Layout>

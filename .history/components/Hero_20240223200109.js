@@ -24,7 +24,7 @@ export default function Hero() {
               <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
               Faucibus in libero.Lorem ipsum dolor amet,
             </Card>
-            <Card bgColor={"landingBlue"}>
+            <Card className="">
               <span className="text-lg font-bold pb-2">178K+</span>
               <br></br>
               Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in
@@ -32,13 +32,10 @@ export default function Hero() {
             </Card>
           </div>
           <div>
-            <Card bgColor={"landingGray"}>
-              <div className="flex">
-                <span className="text-lg font-bold pb-2">Title</span>
-                <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
-                Faucibus in libero.Lorem ipsum dolor amet,
-                <Image src="/home.png" width={200} height={200}></Image>
-              </div>
+            <Card className="bg-landingBlue">
+              <span className="text-lg font-bold pb-2">Title</span>
+              <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
+              Faucibus in libero.Lorem ipsum dolor amet,<Image></Image>
             </Card>
           </div>
         </div>
