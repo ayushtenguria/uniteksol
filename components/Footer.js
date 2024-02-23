@@ -15,7 +15,7 @@ export default function Footer() {
         ></Image>
         <div className="flex gap-4 my-6">
           {FOOTER_LINKS.map((item) => (
-            <Link href={item.href}>{item.label}</Link>
+            <Link href={item.href} key={item.key}>{item.label}</Link>
           ))}
         </div>
       <div>© 2021 Marks Designed. All rights reserved</div>
