@@ -7,8 +7,7 @@ import Story from "@/components/Story";
 import ServiceBanner from "@/components/serviceBanner";
 import About from "@/components/About";
 import Testimonials from "@/components/Testimonials";
-import Appointment from "@/components/Appointment";
-import Tailor from "@/components/Tailor";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -17,10 +16,8 @@ export default function Home() {
       <Hero></Hero>
       <CompanyLogos></CompanyLogos>
       <Story></Story>
-      <Testimonials></Testimonials>
+      <Testimonials></Test>
       <About></About>
-      <Tailor></Tailor>
-      <Appointment></Appointment>
       <ServiceBanner></ServiceBanner>
     </Layout>
   );
