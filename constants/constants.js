@@ -6,6 +6,12 @@ export const NAV_LINKS = [
     { href: '/contact', key: 'contact', label: 'Contact' }
 ];
 
+export const HERO_IMAGES = [
+    { src: '/pump1.jpg', key: 'pump1' },
+    { src: '/pump2.jpg', key: 'pump2' },
+    { src: '/pump3.jpg', key: 'pump3' },
+];
+
 export const FOOTER_LINKS = [
     { href: '/about', key: 'about', label: 'About' },
     { href: '/features', key: 'features', label: 'Features' },

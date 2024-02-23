@@ -1,5 +1,7 @@
+import { HERO_IMAGES } from "@/constants/constants";
 import Image from "next/image";
 import Card from "./Card";
+import SimpleSlider from "./SimpleSlider";
 
 export default function Hero() {
   return (
@@ -44,13 +46,17 @@ export default function Hero() {
         </div>
       </div>
       <div className="w-1/2">
-        Slide
-        <Image
-          src="/pump2.jpg"
-          width={800}
-          height={800}
-          alt="Petrol pump image"
-        ></Image>
+        <SimpleSlider dots={true} noOfSlides={1} autoPlay={true} autoPlaySpeed={3000} speed={3000}>
+          {HERO_IMAGES.map((i) => (
+            <Image
+              src={i.src}
+              width={400}
+              height={100}
+              alt="Petrol pump image"
+              className="rounded-3xl h-[650px] object-cover"
+            ></Image>
+          ))}
+        </SimpleSlider>
       </div>
     </div>
   );

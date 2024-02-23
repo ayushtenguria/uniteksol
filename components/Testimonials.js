@@ -14,7 +14,7 @@ export default function Testimonials() {
         <p className="text-[#656565] font-semibold text-lg">Tesimonials</p>
       </div>
 
-      <SimpleSlider dots={false} noOfSlides={3}>
+      <SimpleSlider dots={false} noOfSlides={3} autoPlay={false}>
         {TESTIMONIALS.map((t) => (
           <div className="rounded-3xl p-4 border-2 border-[#DDDDDD]">
             <div className="p-2">
