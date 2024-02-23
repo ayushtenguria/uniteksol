@@ -17,7 +17,9 @@ module.exports = {
         'landingGray':'#E6E6E6',
         'fontBlack':'#333333',
         'landingBlue':'#79CFFF',
-        'landingBlack':'#0E0F13'
+        'landingBlack':'#0E0F13',
+        'appBlue':'#79CFFF',
+        'appBluedark':'#498DF3'
       }
     },
   },
