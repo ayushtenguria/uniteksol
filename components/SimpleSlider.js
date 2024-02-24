@@ -4,10 +4,10 @@ import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
 
-export default function SimpleSlider({children,dots,noOfSlides,autoPlay,speed,autoPlaySpeed}) {
+export default function SimpleSlider({children,dots,noOfSlides,autoPlay,speed,autoPlaySpeed,infinite}) {
     var settings = {
       dots: dots,
-      infinite: false,
+      infinite: infinite,
       speed: 500,
       slidesToShow: noOfSlides,
       slidesToScroll: 1,

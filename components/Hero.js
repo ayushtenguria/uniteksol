@@ -4,9 +4,10 @@ import Card from "./Card";
 import SimpleSlider from "./SimpleSlider";
 
 export default function Hero() {
+  const cardClasses = "rounded-3xl p-4 m-2";
   return (
-    <div className="flex gap-4 m-10 grid-cols-2 justify-between text-fontBlack">
-      <div className="w-1/2">
+    <div className="flex lg:flex-row flex-col gap-4 m-10 grid-cols-2 justify-between text-fontBlack">
+      <div className="lg:w-1/2">
         <div className="my-10">
           <h1 className="text-4xl font-bold mb-6">
             We build your dream house with our passion
@@ -20,33 +21,40 @@ export default function Hero() {
           <button className="btn-black text-lg">Learn More</button>
         </div>
         <div>
-          <div className="flex gap-4">
-            <Card bgColor={"landingGray"}>
+          <div className="flex lg:flex-row flex-col gap-4">
+            <div className={"bg-landingGray " + cardClasses}>
               <span className="text-lg font-bold pb-2">362</span>
               <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
               Faucibus in libero.Lorem ipsum dolor amet,
-            </Card>
-            <Card bgColor={"landingBlue"}>
+            </div>
+            <div className={"bg-landingBlue " + cardClasses}>
               <span className="text-lg font-bold pb-2">178K+</span>
               <br></br>
               Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in
               libero.Lorem ipsum dolor amet,
-            </Card>
+            </div>
           </div>
           <div>
-            <Card bgColor={"landingGray"}>
-              <div className="flex">
+            <div className={"bg-landingGray " + cardClasses}>
+              <div className="flex lg:flex-row flex-col">
                 <span className="text-lg font-bold pb-2">Title</span>
                 <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
                 Faucibus in libero.Lorem ipsum dolor amet,
                 <Image src="/home.png" width={200} height={200}></Image>
               </div>
-            </Card>
+            </div>
           </div>
         </div>
       </div>
-      <div className="w-1/2">
-        <SimpleSlider dots={true} noOfSlides={1} autoPlay={true} autoPlaySpeed={3000} speed={3000}>
+      <div className="lg:w-1/2">
+        <SimpleSlider
+          dots={true}
+          noOfSlides={1}
+          autoPlay={true}
+          autoPlaySpeed={3000}
+          speed={3000}
+          infinite={true}
+        >
           {HERO_IMAGES.map((i) => (
             <Image
               src={i.src}

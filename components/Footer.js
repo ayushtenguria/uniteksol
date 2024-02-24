@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 export default function Footer() {
   return (
-    <div className="w-screen h-full bg-black text-white flex justify-between p-20 pb-16">
+    <div className="w-screen h-full bg-black text-white flex md:flex-row flex-col gap-8 justify-between p-20 pb-16">
       <div>
         <Image
           src="/blue-dot.png"
@@ -13,7 +13,7 @@ export default function Footer() {
           height={40}
           alt="logo of company"
         ></Image>
-        <div className="flex gap-4 my-6">
+        <div className="flex flex-col sm:flex-row gap-4 my-6">
           {FOOTER_LINKS.map((item) => (
             <Link href={item.href} key={item.key}>{item.label}</Link>
           ))}
