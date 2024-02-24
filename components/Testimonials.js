@@ -1,7 +1,6 @@
 import { TESTIMONIALS } from "@/constants/constants";
 import Image from "next/image";
 import SimpleSlider from "./SimpleSlider";
-import Slider from "./SimpleSlider";
 
 export default function Testimonials() {
   return (
@@ -13,7 +12,7 @@ export default function Testimonials() {
         <p className="text-[#656565] font-semibold text-lg">Tesimonials</p>
       </div>
 
-      <SimpleSlider dots={false} noOfSlides={3} autoPlay={false}>
+      <SimpleSlider dots={false} noOfSlides={3} autoPlay={false} infinite={false}>
         {TESTIMONIALS.map((t) => (
           <div className="rounded-3xl p-4 border-2 border-[#DDDDDD]" key={t.key}>
             <div className="p-2">
