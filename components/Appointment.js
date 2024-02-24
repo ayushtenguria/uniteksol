@@ -20,7 +20,7 @@ export default function Appointment() {
         </p>
       </div>
       <button className="bg-white text-landingBlue border-whiteSmoke rounded-3xl shadow-xl my-8 px-5 py-5 text-xl font-bold">
-        <p className="flex">
+        <div className="flex">
           <svg  
             width="26"
             height="27"
@@ -36,7 +36,7 @@ export default function Appointment() {
           <p className="px-2 text-[#5096F5]">
           Book an appointment!
           </p>
-        </p>
+        </div>
       </button>
     </div>
   );
