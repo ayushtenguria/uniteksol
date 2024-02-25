@@ -9,7 +9,7 @@ import About from "@/components/About";
 import Testimonials from "@/components/Testimonials";
 import Appointment from "@/components/Appointment";
 import Tailor from "@/components/Tailor";
-import Map from "@/components/map";
+import Map from "@/components/Map";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -18,11 +18,11 @@ export default function Home() {
       <Hero></Hero>
       <CompanyLogos></CompanyLogos>
       <Story></Story>
-      <Testimonials></Testimonials>
-      <About></About>
       <Map></Map>
       <Tailor></Tailor>
       <Appointment></Appointment>
+      <Testimonials></Testimonials>
+      <About></About>
       <ServiceBanner></ServiceBanner>
     </Layout>
   );

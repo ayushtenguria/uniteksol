@@ -3,29 +3,25 @@ import Image from "next/image";
 export default function Tailor() {
   return (
     <div className="m-10">
-      <div className="text-centre place-content-center">
-        <p>
-          <b className="text-4xl">Tailor-made features</b>
-          <br />
-          <span className="text-2xl">
+      <div className="pb-6">
+      <h2 className="text-4xl font-bold">Tailor-made features</h2>
+        <p className="lg:text-lg text-md">
             Lorem ipsum is common placeholder text used to demonstrate the
             graphic elements of a document or visual presentation.
-          </span>
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-4 text-black text-center">
+      <div className="grid md:grid-cols-3 grid-cols-2 gap-8 text-black text-center">
         {TAILERS.map((t) => (
-          <div className="place-content-center" key={t.key}>
+          <div className="flex flex-col items-center w-5/6" key={t.key}>
             <Image
               src={t.src}
               width="32"
               height="32"
               viewBox="0 0 32 32"
+              className="my-4"
             ></Image>
-            <br />
-            <b className="text-2xl">{t.name}</b>
-            <br />
-            {t.description}
+            <h3 className="text-2xl font-bold">{t.name}</h3>
+            <p>{t.description}</p>
           </div>
         ))}
       </div>

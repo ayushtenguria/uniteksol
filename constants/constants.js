@@ -21,14 +21,14 @@ export const FOOTER_LINKS = [
 ];
 export const REVIEWS = [
   {
-    src: "/image1",
+    src: "/eg-logo.png",
     key: "key1",
     desc: "I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it.",
     name: "Jane Cooper",
     designation: "CEO, Airbnb"
   },
   {
-    src: "/image2",
+    src: "/eg-logo.png",
     key: "key2",
     desc: "I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it.",
     name: "Jane Cooper",
@@ -101,41 +101,41 @@ export const TAILERS = [
     name: "Vaibhav Sharma",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/public/Tailore.jpeg"
+    src: "/Tailor.jpeg"
   },
   {
     key: "key2",
     name: "Vaibhav Sharma",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/public/Tailore.jpeg"
+    src: "/Tailor.jpeg"
   },
   {
     key: "key3",
     name: "Vaibhav Sharma",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/public/Tailore.jpeg"
+    src: "/Tailor.jpeg"
   },
   {
     key: "key4",
     name: "Vaibhav Sharma",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/public/Tailore.jpeg"
+    src: "/Tailor.jpeg"
   },
   {
     key: "key5",
     name: "Vaibhav Sharma",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/public/Tailore.jpeg"
+    src: "/Tailor.jpeg"
   },
   {
     key: "key6",
     name: "Vaibhav Sharma",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/public/Tailore.jpeg"
+    src: "/Tailor.jpeg"
   },
 ];
