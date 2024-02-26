@@ -13,7 +13,7 @@ export default function Hero() {
             We build your dream house with our passion
           </h1>
           <p className="text-lg font-semibold mb-6">
-            Our core goal is to respond to today's{" "}
+            Our core goal is to respond to today&apos;s {" "}
             <span className="underline">dynamic marked</span> by equipping our
             customers with the digital tools they need to remain competitive,
             build their business, and empower the consumer experience.
@@ -62,6 +62,7 @@ export default function Hero() {
               height={100}
               alt="Petrol pump image"
               className="rounded-3xl md:h-[650px] h-[400px] object-cover"
+              key={i.key}
             ></Image>
           ))}
         </SimpleSlider>
