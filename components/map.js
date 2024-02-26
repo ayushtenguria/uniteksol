@@ -6,12 +6,14 @@ export default function Map() {
       <div className="mb-10">
         <Image
           src="/map-arrow.png"
+          alt=""
           width={80}
           height={80}
           className="relative top-20 sm:w-fit w-[70px] pr-6"
         ></Image>
         <Image
           src="/Map.png"
+          alt=""
           width="500"
           height="500"
           viewBox="0 0 32 32"
@@ -28,7 +30,7 @@ export default function Map() {
               key={t.key}
             >
               <div className="mb-4">
-                <Image src={t.src} width={100} height={50}></Image>
+                <Image src={t.src} alt="" width={100} height={50}></Image>
               </div>
               <div className="flex gap-2 mb-6">
                 <div>
