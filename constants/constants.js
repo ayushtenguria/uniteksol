@@ -49,7 +49,7 @@ export const TESTIMONIALS = [
     src: "/testi1.png",
     name: "Vishal Mailk",
     designation: "CEO and co-founder of Vacature Via",
-    key: "about",
+    key: "about1",
     description:
       "We were looking for an agency that would help design and build the job platform of the future with us. Cut the Code was able to perfectly translate our needs into a digital experience that seamlessly aligns with the modern employer and jobseeker.",
   },
@@ -57,7 +57,7 @@ export const TESTIMONIALS = [
     src: "/testi1.png",
     name: "HackTiger",
     designation: "CEO and co-founder of Vacature Via",
-    key: "about",
+    key: "about2",
     description:
       "We were looking for an agency that would help design and build the job platform of the future with us. Cut the Code was able to perfectly translate our needs into a digital experience that seamlessly aligns with the modern employer and jobseeker.",
   },
@@ -65,7 +65,7 @@ export const TESTIMONIALS = [
     src: "/testi1.png",
     name: "Rishabh",
     designation: "CEO and co-founder of Vacature Via",
-    key: "about",
+    key: "about3",
     description:
       "We were looking for an agency that would help design and build the job platform of the future with us. Cut the Code was able to perfectly translate our needs into a digital experience that seamlessly aligns with the modern employer and jobseeker.",
   },
@@ -73,7 +73,7 @@ export const TESTIMONIALS = [
     src: "/testi1.png",
     name: "Nadir Mea",
     designation: "CEO and co-founder of Vacature Via",
-    key: "about",
+    key: "about4",
     description:
       "We were looking for an agency that would help design and build the job platform of the future with us. Cut the Code was able to perfectly translate our needs into a digital experience that seamlessly aligns with the modern employer and jobseeker.",
   },
@@ -81,7 +81,7 @@ export const TESTIMONIALS = [
     src: "/testi1.png",
     name: "Nadir Mea",
     designation: "CEO and co-founder of Vacature Via",
-    key: "about",
+    key: "about5",
     description:
       "We were looking for an agency that would help design and build the job platform of the future with us. Cut the Code was able to perfectly translate our needs into a digital experience that seamlessly aligns with the modern employer and jobseeker.",
   },
@@ -89,7 +89,7 @@ export const TESTIMONIALS = [
     src: "/testi1.png",
     name: "Nadir Mea",
     designation: "CEO and co-founder of Vacature Via",
-    key: "about",
+    key: "about6",
     description:
       "We were looking for an agency that would help design and build the job platform of the future with us. Cut the Code was able to perfectly translate our needs into a digital experience that seamlessly aligns with the modern employer and jobseeker.",
   },
