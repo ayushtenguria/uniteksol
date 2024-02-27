@@ -2,7 +2,7 @@ import { REVIEWS } from "@/constants/constants";
 import Image from "next/image";
 export default function Map() {
   return (
-    <div className="m-10 grid lg:grid-cols-2 grid-cols-1">
+    <div className="my-10 grid lg:grid-cols-2 grid-cols-1">
       <div className="mb-10">
         <Image
           src="/map-arrow.png"

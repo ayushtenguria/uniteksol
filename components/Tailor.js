@@ -2,7 +2,7 @@ import { TAILERS } from "@/constants/constants";
 import Image from "next/image";
 export default function Tailor() {
   return (
-    <div className="m-10">
+    <div className="my-10">
       <div className="pb-6">
       <h2 className="text-4xl font-bold">Tailor-made features</h2>
         <p className="lg:text-lg text-md">

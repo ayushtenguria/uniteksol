@@ -1,6 +1,6 @@
 export default function CompanyLogos() {
   return (
-    <div className="flex justify-center m-10">
+    <div className="flex justify-center my-10">
       <svg
         width="1312"
         height="41"

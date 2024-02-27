@@ -6,8 +6,8 @@ import { useState } from "react";
 export default function Nav() {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <div className="flex lg:flex-row flex-col justify-between m-10">
-      <div className="flex justify-between lg:w-fit w-screen">
+    <div className="flex lg:flex-row flex-col justify-between my-10">
+      <div className="flex justify-between lg:w-fit w-auto">
         <div>
           <Image
             src="/blue-dot.png"
@@ -18,7 +18,7 @@ export default function Nav() {
         </div>
         {!openNav && (
           <div
-            className={"cursor-pointer lg:hidden mr-10"}
+            className={"cursor-pointer lg:hidden"}
             onClick={() => setOpenNav(!openNav)}
           >
             <svg
@@ -39,7 +39,7 @@ export default function Nav() {
         )}
         {openNav && (
           <div
-            className={"inline-block cursor-pointer lg:hidden mr-10"}
+            className={"inline-block cursor-pointer lg:hidden"}
             onClick={() => setOpenNav(!openNav)}
           >
             <svg
@@ -60,7 +60,7 @@ export default function Nav() {
         )}
       </div>
       {openNav && (
-        <div className="lg:hidden h- z-30 relative w-screen flex justify-center text-center">
+        <div className="lg:hidden w-auto flex justify-center text-center">
           <div className="flex flex-col">
             {NAV_LINKS.map((item) => (
               <Link href={item.href} key={item.key} className="p-4">

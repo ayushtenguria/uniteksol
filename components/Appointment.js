@@ -1,6 +1,6 @@
 export default function Appointment() {
   return (
-    <div className="shadow-2xl bg-appBlue m-10 rounded-3xl text-center items-center h-auto lg:p-10 p-6 bg-gradient-to-r from-appBlue to-appBluedark">
+    <div className="shadow-2xl bg-appBlue my-10 rounded-3xl text-center items-center h-auto lg:p-10 p-6 bg-gradient-to-r from-appBlue to-appBluedark">
       <div className="text-whiteSmoke font-bold lg:text-4xl md:text-3xl text-2xl">
         <p>
           Have any doubts?

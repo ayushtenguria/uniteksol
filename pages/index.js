@@ -14,7 +14,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
+    
+
+    
     <Layout>
+      <div className="md:px-10">
+
       <Hero></Hero>
       <CompanyLogos></CompanyLogos>
       <Story></Story>
@@ -24,6 +29,8 @@ export default function Home() {
       <Testimonials></Testimonials>
       <About></About>
       <ServiceBanner></ServiceBanner>
+      </div>
     </Layout>
+    
   );
 }

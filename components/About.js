@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About(){
     return(
-        <div className="flex md:flex-row flex-col m-10 py-20 gap-6">
+        <div className="flex md:flex-row flex-col my-10 py-20 gap-6">
             <div className="bg-[#E4DCD3] rounded-t-full mb-16 lg:m-0 md:w-1/4">
                 <div className="flex justify-center relative top-16">
                     <p className="text-[#00010D] font-semibold"><span className="font-semibold flex justify-center text-lg">Rishabh</span> NSUT Student</p>

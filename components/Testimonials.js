@@ -4,7 +4,7 @@ import SimpleSlider from "./SimpleSlider";
 
 export default function Testimonials() {
   return (
-    <div className="m-10">
+    <div className="my-20">
       <div className="mb-4">
         <h1 className="lg:w-1/3 text-4xl font-bold">
           Real Stories from Real Customers

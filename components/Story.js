@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Story() {
   return (
-    <div className="m-10 my-20">
+    <div className="my-20">
         <div><h2 className="text-4xl font-bold pb-10">Our Story</h2></div>
       <div className="flex lg:flex-row flex-col gap-10">
         <div className="lg:w-1/2">

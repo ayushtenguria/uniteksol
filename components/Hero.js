@@ -6,7 +6,7 @@ import SimpleSlider from "./SimpleSlider";
 export default function Hero() {
   const cardClasses = "rounded-3xl p-4 m-2";
   return (
-    <nav className="flex lg:flex-row flex-col gap-4 m-10 grid-cols-2 justify-between text-fontBlack">
+    <nav className="flex lg:flex-row flex-col gap-4 my-10 grid-cols-2 justify-between text-fontBlack">
       <div className="lg:w-1/2">
         <div className="my-10">
           <h1 className="text-4xl font-bold mb-6">
