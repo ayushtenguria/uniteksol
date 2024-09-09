@@ -21,9 +21,28 @@ export default function Map() {
       </div>
       <div>
         <h2 className="text-4xl font-bold pb-10 lg:text-right">
-          Asset Portfolio
+          Our Service Centers
         </h2>
-        <div className="gap-10 flex flex-col lg:items-end">
+        {/* {["Delhi","Movie"].map((arr)=>{
+          <p className="text-16 font-bold font-gray-950">{arr}</p>
+        })} */}
+        <div className="flex justify-end items-center p-10 content-end right-0">
+          <ul className="items-end text-gray-950 font-semibold text-xl space-y-4">
+            <li>Delhi</li>
+            <li>Jaipur</li>
+            <li>Chandigarh</li>
+            <li>Mumbai</li>
+            <li>Kolkata</li>
+            <li>Lucknow</li>
+            <li>Bhopal</li>
+            <li>Ahmedabad</li>
+            <li>Guhatti</li>
+            <li>Chennai</li>
+            <li>Hyderabad</li>
+            <li>Bangalore</li>
+          </ul>
+        </div>
+        {/* <div className="gap-10 flex flex-col lg:items-end">
           {REVIEWS.map((t) => (
             <div
               className="rounded-3xl p-8 border-2 border-[#DDDDDD] lg:w-2/3"
@@ -65,7 +84,7 @@ export default function Map() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

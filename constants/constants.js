@@ -7,9 +7,9 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_IMAGES = [
-    { src: '/pump1.jpg', key: 'pump1' },
-    { src: '/pump2.jpg', key: 'pump2' },
-    { src: '/pump3.jpg', key: 'pump3' },
+  { src: "/pump1.jpg", key: "pump1" },
+  { src: "/pump2.jpg", key: "pump2" },
+  { src: "/pump3.jpg", key: "pump3" },
 ];
 
 export const FOOTER_LINKS = [
@@ -25,16 +25,16 @@ export const REVIEWS = [
     key: "key1",
     desc: "I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it.",
     name: "Jane Cooper",
-    designation: "CEO, Airbnb"
+    designation: "CEO, Airbnb",
   },
   {
     src: "/eg-logo.png",
     key: "key2",
     desc: "I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it.",
     name: "Jane Cooper",
-    designation: "CEO, Airbnb"
+    designation: "CEO, Airbnb",
   },
-]
+];
 
 export const TESTIMONIALS = [
   {
@@ -98,44 +98,44 @@ export const TESTIMONIALS = [
 export const TAILERS = [
   {
     key: "key1",
-    name: "Vaibhav Sharma",
+    name: "Automation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/Tailor.jpeg"
+      "Implementing automatic control systems for fuel dispensing, monitoring, and station management to enhance efficiency and safety.",
+    src: "/Tailor.jpeg",
   },
   {
     key: "key2",
-    name: "Vaibhav Sharma",
+    name: "Tank Installation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/Tailor.jpeg"
+      "Installation of underground and above-ground storage tanks for fuel, ensuring compliance with safety and environmental regulations.",
+    src: "/Tailor.jpeg",
   },
   {
     key: "key3",
-    name: "Vaibhav Sharma",
+    name: "Dispensar Installation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/Tailor.jpeg"
+      "Setup and installation of fuel dispensers at the petrol pump, including calibration and integration with the station's automation systems.",
+    src: "/Tailor.jpeg",
   },
   {
     key: "key4",
-    name: "Vaibhav Sharma",
+    name: "Civil Works",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/Tailor.jpeg"
+      "Comprehensive construction work including site preparation, foundation laying, and structural setup for petrol pump infrastructure.",
+    src: "/Tailor.jpeg",
   },
   {
     key: "key5",
-    name: "Vaibhav Sharma",
+    name: "Station Branding",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/Tailor.jpeg"
+      "Designing and installing signage, logos, and other branding materials to enhance the visual identity of the petrol station.",
+    src: "/Tailor.jpeg",
   },
   {
     key: "key6",
-    name: "Vaibhav Sharma",
+    name: "Electrical Service",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-    src: "/Tailor.jpeg"
+      "Installation and maintenance of electrical systems, including wiring, lighting, and power supply for petrol pump operations.",
+    src: "/Tailor.jpeg",
   },
 ];

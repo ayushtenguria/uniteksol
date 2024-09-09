@@ -13,25 +13,34 @@ export default function Hero() {
             We build your dream house with our passion
           </h1>
           <p className="text-lg font-semibold mb-6">
-            Our core goal is to respond to today&apos;s {" "}
-            <span className="underline">dynamic marked</span> by equipping our
-            customers with the digital tools they need to remain competitive,
-            build their business, and empower the consumer experience.
+            Our petroleum sector operations involve the automation of downstream
+            supply chain operations of petroleum companies, including outlet
+            automation. Our offerings at the petroleum outlet are aimed at
+            assisting oil companies (OMCs) in implementing their quality and
+            quantity assurance initiatives for customers and providing an
+            infrastructure to cater to various demands of the customers. Our
+            customers in this sector include leading petroleum companies in
+            India.
           </p>
           <button className="btn-black text-lg">Learn More</button>
         </div>
         <div>
           <div className="flex lg:flex-row flex-col gap-4">
             <div className={"bg-landingGray " + cardClasses}>
-              <span className="text-lg font-bold pb-2">362</span>
-              <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
-              Faucibus in libero.Lorem ipsum dolor amet,
+              <span className="text-lg font-bold pb-2">50+ Cities Covered</span>
+              <br></br>
+              We have successfully completed petrol pump construction projects
+              in over 50 cities across the country, ensuring quality
+              infrastructure and safety.
             </div>
             <div className={"bg-landingBlue " + cardClasses}>
-              <span className="text-lg font-bold pb-2">178K+</span>
+              <span className="text-lg font-bold pb-2">
+                250+ Projects Completed
+              </span>
               <br></br>
-              Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in
-              libero.Lorem ipsum dolor amet,
+              With over 250 petrol pump construction projects delivered, we
+              bring extensive experience in meeting industry standards and
+              client expectations on every project.
             </div>
           </div>
           <div>

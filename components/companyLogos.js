@@ -1,7 +1,29 @@
 export default function CompanyLogos() {
   return (
     <div className="flex justify-center my-10">
-      <svg
+      <div>
+        <ul className="flex justify-center items-center gap-4">
+          <li>
+            <img src="/Indian_Oil.svg" alt="logo" height={200} width={200} />
+          </li>
+          <li>
+            <img src="/Bharat_Petroleum.svg" alt="logo" height={200} width={200} />
+          </li>
+          <li>
+            <img src="/orpak-logo.png" alt="logo" height={200} width={200} />
+          </li>
+          <li>
+            <img src="/lnt.webp" alt="logo" height={200} width={200} />
+          </li>
+          <li>
+            <img src="/pinelabs.png" alt="logo" height={200} width={200} />
+          </li>
+          <li>
+            <img src="/bct.svg" alt="logo" height={200} width={200} />
+          </li>
+        </ul>
+      </div>
+      {/* <svg
         width="1312"
         height="41"
         viewBox="0 0 1312 41"
@@ -76,7 +98,7 @@ export default function CompanyLogos() {
           d="M1262.86 30.5835C1262.86 30.5835 1263.48 31.3789 1262.48 32.0651C1262.48 32.0651 1251.85 40.5308 1234 40.5308C1234 40.5308 1215.63 41.4332 1200.28 27.555C1200.28 27.555 1199.75 27.0848 1200.08 26.6478C1200.08 26.6478 1200.38 26.2457 1201.15 26.683C1201.15 26.683 1215.58 35.6365 1234.54 35.6365C1234.54 35.6365 1247.71 36.1443 1261.23 30.3899C1261.23 30.3899 1262.31 29.8344 1262.86 30.5835Z"
           fill="#656565"
         />
-      </svg>
+      </svg> */}
     </div>
   );
 }

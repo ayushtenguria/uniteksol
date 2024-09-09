@@ -14,23 +14,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    
-
-    
     <Layout>
       <div className="md:px-10">
-
-      <Hero></Hero>
-      <CompanyLogos></CompanyLogos>
-      <Story></Story>
-      <Map></Map>
-      <Tailor></Tailor>
-      <Appointment></Appointment>
-      <Testimonials></Testimonials>
-      <About></About>
-      <ServiceBanner></ServiceBanner>
+        <Hero />
+        <CompanyLogos />
+        {/* <Story /> */}
+        <Map />
+        <Tailor />
+        <Appointment />
+        {/* <Testimonials /> */}
+        <About />
+        <ServiceBanner />
       </div>
     </Layout>
-    
   );
 }
