@@ -2,7 +2,7 @@ import { REVIEWS } from "@/constants/constants";
 import Image from "next/image";
 export default function Map() {
   return (
-    <div className="my-10 grid lg:grid-cols-2 grid-cols-1">
+    <div className="my-10 grid lg:grid-cols-2 grid-cols-1 px-20 ">
       <div className="mb-10">
         <Image
           src="/map-arrow.png"
@@ -26,7 +26,7 @@ export default function Map() {
         {/* {["Delhi","Movie"].map((arr)=>{
           <p className="text-16 font-bold font-gray-950">{arr}</p>
         })} */}
-        <div className="flex justify-end items-center p-10 content-end right-0">
+        <div className="flex justify-center items-center p-10 content-end right-0">
           <ul className="items-end text-gray-950 font-semibold text-xl space-y-4">
             <li>Delhi</li>
             <li>Jaipur</li>
