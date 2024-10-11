@@ -21,7 +21,7 @@ export default function Appointment() {
       </div>
       <button className="bg-white text-landingBlue border-whiteSmoke rounded-full shadow-xl my-8 sm:p-5 p-3 lg:text-xl md:text-lg text-sm font-bold items-center w-auto">
         <div className="flex items-center">
-          <svg  
+          <svg
             width="26"
             height="27"
             viewBox="0 0 26 27"
@@ -34,9 +34,9 @@ export default function Appointment() {
               fill="#5096F5"
             />
           </svg>
-          <p className="px-2 text-[#5096F5]">
-          Book an appointment!
-          </p>
+          <a href="https://wa.me/918875310022">
+            <p className="px-2 text-[#5096F5]">Book an appointment!</p>
+          </a>
         </div>
       </button>
     </div>

@@ -68,9 +68,11 @@ export default function Nav() {
                 {item.label}
               </Link>
             ))} */}
-            <button className="btn-blue sm:text-lg text-xs">
-              Book an Appointment!
-            </button>
+            <a href="https://wa.me/918875310022">
+              <button className="btn-blue sm:text-lg text-xs">
+                Book an Appointment!
+              </button>
+            </a>
           </div>
         </div>
       )}
@@ -82,9 +84,11 @@ export default function Nav() {
                 {item.label}
               </Link>
             ))} */}
-            <button className="btn-blue sm:text-lg text-xs">
-              Book an Appointment!
-            </button>
+            <a href="https://wa.me/918875310022">
+              <button className="btn-blue sm:text-lg text-xs">
+                Book an Appointment!
+              </button>
+            </a>
           </div>
         </div>
       </div>

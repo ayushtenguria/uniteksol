@@ -26,7 +26,7 @@ export default function Home() {
         {/* <Testimonials /> */}
         <Galleria/>
         {/* <About /> */}
-        {/* <ServiceBanner /> */}
+        <ServiceBanner />
       </div>
     </Layout>
   );
