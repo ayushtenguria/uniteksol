@@ -22,7 +22,7 @@ export default function Hero() {
             customers in this sector include leading petroleum companies in
             India.
           </p>
-          <button className="btn-black text-lg">Learn More</button>
+          {/* <button className="btn-black text-lg">Learn More</button> */}
         </div>
         <div>
           <div className="flex lg:flex-row flex-col gap-4">
@@ -44,14 +44,14 @@ export default function Hero() {
             </div>
           </div>
           <div>
-            <div className={"bg-landingGray " + cardClasses}>
+            {/* <div className={"bg-landingGray " + cardClasses}>
               <div className="flex lg:flex-row flex-col">
                 <span className="text-lg font-bold pb-2">Title</span>
                 <br></br>Lorem ipsum dolor amet, consectetur adipiscing elit.
                 Faucibus in libero.Lorem ipsum dolor amet,
                 <Image src="/home.png" width={200} height={200}></Image>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ export default function Hero() {
           noOfSlides={1}
           autoPlay={true}
           autoPlaySpeed={3000}
-          speed={3000}
+          speed={4000}
           infinite={true}
         >
           {HERO_IMAGES.map((i) => (

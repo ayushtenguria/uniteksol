@@ -105,21 +105,21 @@ export const TAILERS = [
   },
   {
     key: "key2",
-    name: "Tank Installation",
+    name: "Tank/Dispensar Installation",
     description:
       "Installation of underground and above-ground storage tanks for fuel, ensuring compliance with safety and environmental regulations.",
     src: "/Tailor.jpeg",
   },
   {
     key: "key3",
-    name: "Dispensar Installation",
+    name: "Other Device",
     description:
-      "Setup and installation of fuel dispensers at the petrol pump, including calibration and integration with the station's automation systems.",
+      "RFID,ATG (Automatic tank gauge), etc are interfaced with forecourt controller for seamless working of system. ",
     src: "/Tailor.jpeg",
   },
   {
     key: "key4",
-    name: "Civil Works",
+    name: "Civil Works/Electrical Service",
     description:
       "Comprehensive construction work including site preparation, foundation laying, and structural setup for petrol pump infrastructure.",
     src: "/Tailor.jpeg",
@@ -133,7 +133,7 @@ export const TAILERS = [
   },
   {
     key: "key6",
-    name: "Electrical Service",
+    name: "Survellience Works",
     description:
       "Installation and maintenance of electrical systems, including wiring, lighting, and power supply for petrol pump operations.",
     src: "/Tailor.jpeg",

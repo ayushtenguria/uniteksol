@@ -10,6 +10,7 @@ import Testimonials from "@/components/Testimonials";
 import Appointment from "@/components/Appointment";
 import Tailor from "@/components/Tailor";
 import Map from "@/components/map";
+import Galleria from "@/components/Gelleria";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -18,13 +19,14 @@ export default function Home() {
       <div className="md:px-10">
         <Hero />
         <CompanyLogos />
-        {/* <Story /> */}
+        <Story />
         <Map />
         <Tailor />
         <Appointment />
         {/* <Testimonials /> */}
-        <About />
-        <ServiceBanner />
+        <Galleria/>
+        {/* <About /> */}
+        {/* <ServiceBanner /> */}
       </div>
     </Layout>
   );

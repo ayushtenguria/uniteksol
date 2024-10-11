@@ -8,13 +8,14 @@ export default function Nav() {
   return (
     <div className="flex lg:flex-row flex-col justify-between my-10">
       <div className="flex justify-between lg:w-fit w-auto">
-        <div>
+        <div className="flex space-x-2 justify-center items-center">
           <Image
             src="/blue-dot.png"
             width={40}
             height={40}
             alt="logo of company"
           ></Image>
+          <p className="text-2xl font-semibold">UniqueTech Solutions</p>
         </div>
         {!openNav && (
           <div
@@ -62,11 +63,11 @@ export default function Nav() {
       {openNav && (
         <div className="lg:hidden w-auto flex justify-center text-center">
           <div className="flex flex-col">
-            {NAV_LINKS.map((item) => (
+            {/* {NAV_LINKS.map((item) => (
               <Link href={item.href} key={item.key} className="p-4">
                 {item.label}
               </Link>
-            ))}
+            ))} */}
             <button className="btn-blue sm:text-lg text-xs">
               Book an Appointment!
             </button>
@@ -76,11 +77,11 @@ export default function Nav() {
       <div className="flex gap-6">
         <div className="flex">
           <div className="hidden lg:flex">
-            {NAV_LINKS.map((item) => (
+            {/* {NAV_LINKS.map((item) => (
               <Link href={item.href} key={item.key} className="p-4">
                 {item.label}
               </Link>
-            ))}
+            ))} */}
             <button className="btn-blue sm:text-lg text-xs">
               Book an Appointment!
             </button>

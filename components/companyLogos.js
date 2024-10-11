@@ -7,6 +7,9 @@ export default function CompanyLogos() {
             <img src="/Indian_Oil.svg" alt="logo" height={200} width={200} />
           </li>
           <li>
+            <img src="Hindustan.webp" alt="logo" height={200} width={200} />
+          </li>
+          <li>
             <img src="/Bharat_Petroleum.svg" alt="logo" height={200} width={200} />
           </li>
           <li>
@@ -16,10 +19,13 @@ export default function CompanyLogos() {
             <img src="/lnt.webp" alt="logo" height={200} width={200} />
           </li>
           <li>
-            <img src="/pinelabs.png" alt="logo" height={200} width={200} />
+            <img src="/pinelabs.webp" alt="logo" height={200} width={200} />
           </li>
           <li>
             <img src="/bct.svg" alt="logo" height={200} width={200} />
+          </li>
+          <li>
+            <img src="/synoptics.png" alt="logo" height={200} width={200} />
           </li>
         </ul>
       </div>
